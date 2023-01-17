@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#input {
+  width: 500px;
+  height: 60px;
+  margin: 10px;
+}
+#btn {
+  width: 200px;
+  height: 61px;
+  background-color: cadetblue;
+  color: cornsilk;
+  font-style: italic;
+  font-weight: 900;
+  font-size: x-large;
+  border-radius: 10px;
+}
+.container {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 23%;
+  -moz-column-width: 23%;
+  column-width: 23%;
+  padding: 10px 12px;
+}
+.container.pictures {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  /* margin-bottom: 12px; */
+  /* border: 2px solid black; */
+}
+.pictures {
+  border: 2px solid black;
+  margin: 1px 1px;
+}
